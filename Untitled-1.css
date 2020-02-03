@@ -1,0 +1,39 @@
+body{
+    margin: 0px;
+    padding: 0px;
+} 
+ .menu{
+    display: flex;
+
+    background-image: linear-gradient(to bottom, #5858FA, #2E2EFE, #0404B4);
+    height: 40px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.menu a{
+    margin-right: 20px;
+    text-decoration: none; 
+    color: black;
+}
+.menu a:hover{
+    color: white;
+}
+.logo{
+    width: 55px;
+    margin-left: 15px;
+   border-radius: 1em;
+
+}
+/* fin navbar*/
+@media only screen and (max-width: 600px) {
+    .menu a{
+      display: flex;
+      flex-direction: column;
+      background-image: linear-gradient(to bottom, #5858FA, #2E2EFE, #0404B4) !important;
+
+    }
+    .menu{
+        background-image: none;
+    }
+  }

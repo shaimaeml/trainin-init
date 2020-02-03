@@ -1,0 +1,160 @@
+.Digitalisation_en_main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+}
+
+.carousel-item {
+  height: 800%;
+  width: 100%;
+}
+
+.Services_items {
+  display: flex;
+  justify-content: center;
+  margin-top: -200px;
+  flex-direction: column;
+  text-align: center;
+}
+
+.service {
+  text-align: center;
+
+}
+
+.pr_img {
+  display: flex;
+  justify-content: space-around;
+  border-radius: 20px;
+}
+
+.card_group {
+  display: flex;
+  justify-content: space-around;
+
+
+}
+
+.Cards {
+  width: 400px;
+  border: 1px solid black;
+  margin-top: 40px;
+
+}
+
+.Cards:hover {
+  box-shadow: 0 0 10px rgb(146, 146, 146);
+}
+
+.Cards img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  padding: 20px;
+}
+
+.sommes {
+  margin-top: 20px;
+  margin-right: 800px;
+
+
+}
+
+.team_img img {
+  height: 400px;
+  width: 800px;
+  margin-left: 10px;
+  margin-top: -40px;
+}
+
+.box {
+  height: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+
+}
+
+.box>* {
+  flex: 1 1 40px;
+}
+
+.equipes {
+  margin-top: 430px;
+}
+
+.team_img {
+float: right;
+}
+
+.imgeqp img {
+  width: 400px;
+  height: 300px;
+  margin-right: 500px;
+}
+
+.eqp {
+  height: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-top: 200px;
+  justify-content: space-evenly;
+
+}
+
+.equipe {
+  margin-top: 460px;
+}
+.clients {
+  margin-top: 400px;
+  background-color: rgba(128, 128, 128, 0.24);
+  padding: 20px;
+  
+}
+.box>* {
+  flex: 1 1 40px;
+}
+.container{
+  margin-top: 100px;
+}
+#logo{
+  width: 100px;
+  height:   100px;
+  float: left;
+
+}
+.cominication{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 100px;
+  background-color: rgba(0, 0, 0, 0.089);
+}
+.cominication .cominication_pargraph{
+  width: 40%;
+}
+.input_items{
+  display: flex;
+  flex-direction: column;
+  margin-top: 70px;
+
+}
+.input_items input , .input_items textarea{
+  margin-top: 20px;
+  height: 40px;
+  width: 130%;
+  border-radius: 10px;
+  border: 1px solid black;
+  padding-left: 20px;
+
+}
+.input_items button{
+  width: 130%;
+  height: 40px;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+.input_items button:hover{
+  background-color: gray;
+}
